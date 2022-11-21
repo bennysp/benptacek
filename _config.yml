@@ -6,6 +6,5 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 description: About Me
 github_username:  bennysp # DO NOT include the @ character, or else the build will fail!
-github:
-  is_project_page: false
-show_excerpts: false # set to false to remove excerpts on the homepage
+show_githublink: false # remove the "View on Github" link
+show_excerpts: true # set to false to remove excerpts on the homepage
